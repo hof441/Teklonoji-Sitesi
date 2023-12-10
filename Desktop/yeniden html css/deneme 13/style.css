@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.logo{
+    height: 5vh;
+}
+.ayrac{
+    font-size: 20px;
+    margin: 0 3vh;
+    color: aliceblue;
+}
+.header-yuk{
+    height: 40vh;
+}
+.sayfa-baslık h1 {
+    color: #f4b70b;
+    font-weight: bold;
+}
+.sayfa-baslık p{
+    color: white;
+    font-size: 18px;
+}
+
+.üstkısım{
+    background-image: url(assets/resimler/ust-bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.üstkısım-sayfalar{
+    background-image: url(assets/resimler/ust-bg-2.jpg);
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menü{
+    color: rgb(255, 254, 254);
+    font-size: 18px;
+}
+.menü:hover{
+    color: rgb(41, 121, 59);
+}
+.nav-bg{
+    background-color: rgb(0, 0, 0);
+}
+.navbar-toggler-icon{
+    stroke: white;
+}
+.logo1{
+    margin-top: 20vh;
+}
+
+.teklif{
+    height: 5vh;
+    align-items: center;
+    text-align: center;
+}
+.tırnak{
+    color: #f4b70b;
+    font-size: 36px;
+    font-weight: bold;
+}
+.imza{
+    font-size: 36px;
+    padding-top: 2vh;
+}
+.buton{
+    margin-top: 2vh;
+    height: 5vh;
+}
+.hizmetlerimiz{
+    background-color: #f4b70b;
+}
+
+.tırnak1{
+    color: #f4b70b;
+    font-size: 78px;
+    font-weight: bold;
+}
+.imza1{
+    font-size: 46px;
+    color: white;
+}
+.slogan{
+    background-image: url(assets/resimler/ust-bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.roketicon{
+    font-size: 15vh;
+    color: white;
+    text-align: center;
+}
+.calisma{
+    padding: 5px;
+    border: 1px solid transparent;
+}
+.calisma:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.footer{
+    background-color: #2C3E50;
+    margin-top: 20vh;
+}
+.icons{
+    color: rgb(148, 148, 148);
+    margin-left: -5vw;
+}
+.footeryuksek{
+    height: 40vh;
+}
+.icon3{
+    font-size: 50px;
+    margin-left: 5vw;
+}
+.footer-metin{
+    color: rgb(148, 148, 148);
+    font-size: 16px;
+}
+.card{
+    cursor: pointer;
+    border: 0px;
+}
+.card:hover{
+    opacity: 0.7;
+}
+.portfot{
+    height: 20vh;
+}
+@media screen and (max-width: 992px) {
+    .ayrac{
+        display: none;
+    }
+    
+}
+
+  
